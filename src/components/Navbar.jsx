@@ -16,7 +16,7 @@ function ShoeNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/addproduct">
+            <Nav.Link as={Link} to="/a">
               Add Product
             </Nav.Link>
             <Nav.Link as={Link} to="/productpage">

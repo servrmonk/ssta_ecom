@@ -11,8 +11,9 @@ export default function AllRoutes() {
   return (
     <Routes>
       <Route path="/productpage" element={<ProductPage />} />
-      <Route path="/addproduct" element={<ShoeAddnPrint />} />
+      <Route path="/" element={<ShoeAddnPrint />} />
       <Route path="/cart" element={<CartComp />} />
+      <Route path="*" element={<ShoeAddnPrint />} />
 
     </Routes>
   );

@@ -13,7 +13,7 @@ function Example() {
   const handleShow = () => setShow(true);
 
   const { cartArray} = useContext(CartContext);
-  // console.log("medsDat in cartpage",cartArray);
+  console.log("medsDat in cartpage",cartArray);
 
   return (
     <>
@@ -32,7 +32,7 @@ function Example() {
           cartArray.map((prod,index) => (
             <div key={index}>
               <Modal.Body>Medicine :{prod.medicineName}</Modal.Body>
-              <Modal.Body>Description:{prod.medicineDesc}</Modal.Body>
+              <Modal.Body>Description:{prod.medicineDescription}</Modal.Body>
               <Modal.Body>Price:{prod.medicinePrice}</Modal.Body>
             
               <hr />

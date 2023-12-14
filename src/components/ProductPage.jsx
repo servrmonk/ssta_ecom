@@ -26,6 +26,7 @@ export default function ProductPage() {
       <Card>
         {medsDet.length > 0 &&
           medsDet.map((prod, index) => (
+          
             <div key={index}>
               <Card.Header as="h5">
                 Medicine Name: {prod.medicineName}
